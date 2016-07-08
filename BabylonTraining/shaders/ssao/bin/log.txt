@@ -1,0 +1,19 @@
+[0:0:0::434]	GLEW: 1.9.0
+[0:0:0::447]	Validating OpenGL version: required: 3.3, available: 3.3
+[0:0:0::451]	Validating OOGL: application: 0.5.0, library: 0.5.0
+[0:0:0::463]	Initializing...
+[0:0:0::464]	Loading "media/gui/default16.png"...
+[0:0:0::473]	...DONE
+[0:0:0::481]	Loading "shaders/models/SAQuadModel.vs.glsl"...
+[0:0:0::489]	...DONE
+[0:0:0::491]	Loading "shaders/basic.vs.glsl"...
+[0:0:0::494]	...DONE
+[0:0:0::495]	Loading "shaders/postprocess.fs.glsl"...
+[0:0:0::499]	...DONE
+[0:0:0::500]	Compile status: 0, info log:
+
+ERROR: 0:120: '=' :  cannot convert from '2-component vector of float' to 'float'
+
+
+[0:0:0::510]	Cleaning up...
+[0:0:0::608]	Cleanup complete.

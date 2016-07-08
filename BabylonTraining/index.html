@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Babylon Training</title>
+
+        <link rel="stylesheet" href="css/index.css">
+
+        <!-- Debug -->
+        <!--<script src="http://agence.hapticmedia.fr:1337/vorlon.js/buecher"></script>-->
+
+        <!-- Babylon dependencies -->
+        <script src="libs/hand.js"></script>
+
+        <script src="libs/babylon.2.4.max.js"></script>
+        <script src="js/babylon.standardMaterial.js"></script>
+        <script src="js/testMaterial.js"></script>
+        <script src="js/customPBRMaterial.js"></script>
+        <!--<script src="http://cdn.babylonjs.com/2-4/babylon.max.js"></script>-->
+        <script src="libs/babylon.objFileLoader.js"></script>
+        <script src="libs/babylon.stlFileLoader.js"></script>
+
+        <!-- Three dependencies -->
+        <script src="libs/three.js"></script>
+        <script src="libs/stats.min.js"></script>
+        <script src="libs/Tween.js"></script>
+        <script src="libs/TrackballControls.js"></script>
+        <script src="libs/EffectComposer.js"></script>
+        <script src="libs/MaskPass.js"></script>
+        <script src="libs/RenderPass.js"></script>
+        <script src="libs/CopyShader.js"></script>
+        <script src="libs/ShaderPass.js"></script>
+        <script src="libs/FilmPass.js"></script>
+        <script src="libs/FilmShader.js"></script>
+        <script src="libs/HorizontalBlurShader.js"></script>
+
+        <!-- Project files -->
+        <script src="js/Three.js"></script>
+        <script src="js/Babylon.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+
+    <body>
+
+        <div id="buttons">
+            <button id="debugButton" class="button">Debug Layer</button>
+            <button id="renderTargetButton" class="button">Render target</button>
+            <button id="expandButton" class="button">Expand Babylon</button>
+            <button id="stopThreeButton" class="button">Stop Three</button>
+            <button id="stopBabylonButton" class="button">Stop Babylon</button>
+            <button id="animateButton" class="button">Animate</button>
+            <button id="effectButton" class="button">Effect</button>
+        </div>
+
+        <span id="fpsLabel">-1 fps</span>
+        <span id="potentialFpsLabel">-1 fps</span>
+        <span id="resolutionLabel">? x ?</span>
+
+        <canvas id="renderCanvas"></canvas>
+        <div id="container"></div>
+
+    </body>
+
+</html>
